@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./linkedin-webpage-img/images/logo.png" type="image/png">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar">
+       
+        <!-- logo section -->
+
+         <div class="left">
+            <a href="./index.html" class="logo">
+                <img src="./linkedin-webpage-img/images/logo.png" alt="logo">
+            </a>
+            <div class="search">
+                <img src="./linkedin-webpage-img/images/search.png" alt="search">
+                 <input type="text" placeholder="Search">
+            </div>
+         </div>
+
+         <!-- menu sections -->
+
+         <div class="center">
+            <ul>
+                <li><a href="#" class="active"><img src="./linkedin-webpage-img/images/home.png" alt="home"> <span>Home</span> </a></li>
+                <li><a href="#"><img src="./linkedin-webpage-img/images/network.png" alt="Network"> <span>My Network</span> </a></li>
+                <li><a href="#"><img src="./linkedin-webpage-img/images/jobs.png" alt="jobs"> <span>Jobs</span> </a></li>
+                <li><a href="#"><img src="./linkedin-webpage-img/images/message.png" alt="message"> <span>Messaging</span> </a></li>
+                <li><a href="#"><img src="./linkedin-webpage-img/images/notification.png" alt="notification"> <span>Notifications</span> </a></li>
+            </ul>
+         </div>
+          
+         <!-- user section -->
+
+         <div class="right">
+            <div class="online">
+                <img src="./linkedin-webpage-img/images/user-1.png" class="user" alt="user" onclick="toggle()">
+            </div>
+         </div>
+
+         <!-- droup down menu -->
+          <div class="profilemenu" id="menuu">
+              
+            <div class="dropdown">
+                 
+                <!-- adding user Info -->
+
+                <div class="userInfo">
+                    <img src="./linkedin-webpage-img/images/user-1.png" alt="user1">
+                    <div>
+                        <h3>
+                            James thomson
+                        </h3>
+                        <a href="./profile.html">See your profile</a>
+                    </div>
+                </div>
+                  
+                <hr>
+                <a href="#" class="profileLink">
+                    <img src="./linkedin-webpage-img/images/feedback.png" alt="feedback">
+                     <p>Give Feedback</p>
+                     <span>></span>
+                </a>
+
+                <a href="#" class="profileLink">
+                    <img src="./linkedin-webpage-img/images/setting.png" alt="settings">
+                     <p>Settings & Privacy</p>
+                     <span>></span>
+                </a>
+
+                <a href="#" class="profileLink">
+                    <img src="./linkedin-webpage-img/images/help.png" alt="help">
+                     <p>Help & Support</p>
+                     <span>></span>
+                </a>
+
+                   <a href="#" class="profileLink">
+                    <img src="./linkedin-webpage-img/images/display.png" alt="display">
+                     <p>Display & Accessiblity</p>
+                     <span>></span>
+                </a>
+
+                    <a href="#" class="profileLink">
+                    <img src="./linkedin-webpage-img/images/logout.png" alt="logout">
+                     <p>Logout</p>
+                     <span>></span>
+                </a>
+
+            </div>
+
+          </div>
+    </nav>
+
+<!-- sections of the page -->
+    <div class="container">
+        <div class="leftSide">
+            <div class="sidebar">
+                <img src="./linkedin-webpage-img/images/cover-pic.png" alt="cover" width="100%">
+                 
+                <div class="profile">
+                    <img src="./linkedin-webpage-img/images/user-1.png" alt="user1">
+                    
+                    <h1>James Thomson</h1>
+                    
+                    <h3>Web Developer</h3>
+                    
+                    <ul>
+                        <li>Your profile views <span>52</span></li>
+                        <li>Your post views <span>810</span></li>
+                        <li>Your Connections <span>205</span></li>
+                    </ul>
+                 </div>
+                  
+                  <div class="sidelink">
+                <a href="#"><img src="./linkedin-webpage-img/images/items.png" alt="items">My items</a>
+                <a href="#"><img src="./linkedin-webpage-img/images/premium.png" alt="premium">Try premium</a>
+            </div>
+                   
+            </div>
+            
+            <div class="activity">
+                <h3>RECENT</h3>
+                <a href="#"><img src="./linkedin-webpage-img/images/recent.png" alt="recent">Web Development</a>
+                <a href="#"><img src="./linkedin-webpage-img/images/recent.png" alt="recent">User Interface</a>
+                <a href="#"><img src="./linkedin-webpage-img/images/recent.png" alt="recent">Online Learning</a>
+                <a href="#"><img src="./linkedin-webpage-img/images/recent.png" alt="recent">Learn Online</a>
+                <a href="#"><img src="./linkedin-webpage-img/images/recent.png" alt="recent">Code Better</a>
+                <a href="#"><img src="./linkedin-webpage-img/images/recent.png" alt="recent">Group Learning</a>
+                
+                <h3>GROUPS</h3>
+                 <a href="#"><img src="./linkedin-webpage-img/images/group.png" alt="group">Web design Group</a>
+                 <a href="#"><img src="./linkedin-webpage-img/images/group.png" alt="group">HTML & Css Learners</a>
+                 <a href="#"><img src="./linkedin-webpage-img/images/group.png" alt="group">Python</a>
+                 <a href="#"><img src="./linkedin-webpage-img/images/group.png" alt="group">Learn coding online</a>
+
+                 <h3>HASHTAG</h3>
+                 <a href="#"><img src="./linkedin-webpage-img/images/hashtag.png" alt="hashtag">Webdevelopment</a>
+                 <a href="#"><img src="./linkedin-webpage-img/images/hashtag.png" alt="hashtag">javascript</a>
+                 <a href="#"><img src="./linkedin-webpage-img/images/hashtag.png" alt="hashtag">frontend developers</a>
+
+                 <div class="discover">
+                    <a href="#">Discover more</a>
+                 </div>
+
+            </div>
+        </div>
+
+        <!-- Main content -->
+         <div class="main">
+            
+            <!-- Create a post section -->
+
+            <div class="createPost">
+                <div class="input">
+                    <img src="./linkedin-webpage-img/images/user-1.png" alt="user1">
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="postLink">
+                    <li><img src="./linkedin-webpage-img/images/photo.png" alt="photo">Photo</li>
+                    <li><img src="./linkedin-webpage-img/images/video.png" alt="video">Video</li>
+                    <li><img src="./linkedin-webpage-img/images/event.png" alt="event">Event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+            
+            <!-- horizontal line part -->
+
+              <div class="sort">
+                <hr>
+                <p>Sort by: <span>top <img src="./linkedin-webpage-img/images/down-arrow.png" alt="arrow"></span></p>
+              </div>
+
+              <!-- posting part -->
+
+              <!-- post 1 -->
+
+              <div class="poster">
+                <div class="author">
+                    <img src="./linkedin-webpage-img/images/user-3.png" alt="user3">
+                    <div>
+                        <h1>Benjamin Leo</h1>
+                        <small>Founder and CEO at Gellelio Group | Angel Investor</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>SEO writing is the implementation of keywords and key phrases within web content to optimize it for search engines. SEO content writers and marketers use SEO strategies to increase their site’s organic visibility and SERP rankings. The best way to write for SEO is to pair high-quality copy with targeted search terms, aligning with search intent.</p>
+                 <img src="./linkedin-webpage-img/images/post-image-1.png" alt="post1" width="100%">
+                 
+                 
+                 <div class="stats">
+                    <div>
+                        <img src="./linkedin-webpage-img/images/thumbsup.png" alt="likes">
+                        <img src="./linkedin-webpage-img/images/love.png" alt="love">
+                        <img src="./linkedin-webpage-img/images/clap.png" alt="clap">
+                        <span class="likeduser">Abhinav Mishra and 75 others</span>
+                    </div>
+                     <div>
+                        <span>22 comments &middot; 40 shares</span>
+                     </div>
+                 </div>
+                 
+                 <!-- after posting activites -->
+                 
+                 <div class="postActivity">
+                    <div>
+                        <img src="./linkedin-webpage-img/images/user-1.png" alt="img1" class="activity1">
+                        <img src="./linkedin-webpage-img/images/down-arrow.png" alt="down" class="activityicon">
+                    </div>
+                    <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/like.png" alt="like">
+                        <span>like</span>
+                    </div>
+                         <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/comment.png" alt="comment">
+                        <span>comment</span>
+                    </div>
+                         <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/share.png" alt="share">
+                        <span>Share</span>
+                    </div>
+                      <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/send.png" alt="send">
+                        <span>Send</span>
+                    </div>
+                 </div>
+            </div>
+            
+               <!-- post 2 -->
+
+               <div class="poster">
+                <div class="author">
+                    <img src="./linkedin-webpage-img/images/user-4.png" alt="user3">
+                    <div>
+                        <h1>Clarenece</h1>
+                        <small>Senior Developer</small>
+                        <small>2 min</small>
+                    </div>
+                </div>
+                <p>Artificial Intelligence (AI) has evolved rapidly, becoming a transformative technology in many areas of modern life. At its core, AI involves the development of computer systems capable of performing tasks that traditionally require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.</p>
+                 <img src="./linkedin-webpage-img/images/post-image-2.png" alt="post1" width="100%">
+                 
+                 
+                 <div class="stats">
+                    <div>
+                        <img src="./linkedin-webpage-img/images/thumbsup.png" alt="likes">
+                        <img src="./linkedin-webpage-img/images/love.png" alt="love">
+                        <img src="./linkedin-webpage-img/images/clap.png" alt="clap">
+                        <span class="likeduser">Mathew and 100 others</span>
+                    </div>
+                     <div>
+                        <span>100 comments &middot; 1k shares</span>
+                     </div>
+                 </div>
+                 
+                 <!-- after posting activites -->
+                 
+                 <div class="postActivity">
+                    <div>
+                        <img src="./linkedin-webpage-img/images/user-1.png" alt="img1" class="activity1">
+                        <img src="./linkedin-webpage-img/images/down-arrow.png" alt="down" class="activityicon">
+                    </div>
+                    <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/like.png" alt="like">
+                        <span>like</span>
+                    </div>
+                         <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/comment.png" alt="comment">
+                        <span>comment</span>
+                    </div>
+                         <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/share.png" alt="share">
+                        <span>Share</span>
+                    </div>
+                      <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/send.png" alt="send">
+                        <span>Send</span>
+                    </div>
+                 </div>
+            </div>
+
+            <!-- post 3 -->
+            
+            <div class="poster">
+                <div class="author">
+                    <img src="./linkedin-webpage-img/images/user-5.png" alt="user3">
+                    <div>
+                        <h1>Amritha Baskar</h1>
+                        <small>Junior Developer</small>
+                        <small>1 day</small>
+                    </div>
+                </div>
+                <p>Leadership is the process of influencing employees to accomplish organisational objectives. It is the ability of an individual who is known as a leader to motivate others to work with confidence and zeal to attain some predetermined goals.</p>
+                 <img src="./linkedin-webpage-img/images/post-image-3.png" alt="post1" width="100%">
+                 
+                 
+                 <div class="stats">
+                    <div>
+                        <img src="./linkedin-webpage-img/images/thumbsup.png" alt="likes">
+                        <img src="./linkedin-webpage-img/images/love.png" alt="love">
+                        <img src="./linkedin-webpage-img/images/clap.png" alt="clap">
+                        <span class="likeduser">Chandra and 20 others</span>
+                    </div>
+                     <div>
+                        <span>50 comments &middot; 0 shares</span>
+                     </div>
+                 </div>
+                 
+                 <!-- after posting activites -->
+                 
+                 <div class="postActivity">
+                    <div>
+                        <img src="./linkedin-webpage-img/images/user-1.png" alt="img1" class="activity1">
+                        <img src="./linkedin-webpage-img/images/down-arrow.png" alt="down" class="activityicon">
+                    </div>
+                    <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/like.png" alt="like">
+                        <span>like</span>
+                    </div>
+                         <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/comment.png" alt="comment">
+                        <span>comment</span>
+                    </div>
+                         <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/share.png" alt="share">
+                        <span>Share</span>
+                    </div>
+                      <div class="linkin3">
+                        <img src="./linkedin-webpage-img/images/send.png" alt="send">
+                        <span>Send</span>
+                    </div>
+                 </div>
+            </div>
+
+         </div>
+
+         <div class="rightSide">
+            <div class="news">
+                <img src="./linkedin-webpage-img/images/more.png" alt="more" class="info">
+                <h3>Trending News</h3>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                        <a href="#">AI</a>
+                <span>19h ago &middot; 1,00,000 readers</span>
+
+                        <a href="#">Careers growing horizontally too</a>
+                <span>1w ago &middot; 1000 readers</span>
+
+                        <a href="#">Hiring</a>
+                <span>10d ago &middot; 1,09,340 readers</span>
+
+                        <a href="#">the richest list</a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                <a href="#" class="read">Read More</a>
+            </div>
+            <div class="add">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of web design</p>
+                <div>
+                    <img src="./linkedin-webpage-img/images/user-1.png" alt="ad">
+                    <img src="./linkedin-webpage-img/images/mi-logo.png" alt="mi">
+                    <b>Brand and Demand in Xioami</b>
+                    <a href="#" class="linkk">Learn More</a>
+                </div>
+            </div>
+              <div class="useful">
+                    <a href="#">About</a>
+                    <a href="#">Accessiblity</a>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Get the App</a>
+                    <a href="#">More</a>
+
+                    <div class="copyright">
+                        <img src="./linkedin-webpage-img/images/logo.png" alt="copy">
+                        <p>Linkedup &#169; 2022. All rights reserved</p>
+                    </div>
+                </div>
+         </div>
+    </div>
+</body>
+
+<script>
+    let menuu=document.getElementById("menuu");
+
+    function toggle(){
+        menuu.classList.toggle("open-menu");
+    }
+</script>
+</html>
